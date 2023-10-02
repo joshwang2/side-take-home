@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2d2d2d;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.layout-container {
+  position: relative;
+}
+
+.nav-bar {
+  padding: 1em;
+  position: sticky;
+  top: 0;
+  background: #eee;
+  z-index: 100;
+}
+
+.page-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.nav-link-item {
+  margin-right: 20px;
+}
+
+.page-content {
+  max-width: 70%;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-name{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .page-name{
+    font-size: 20px;
+  }
+}
+
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.property-item {
+  padding-left: 30px;
+}
+
+.photo {
+  position: relative; 
+  display: inline-block; 
+}
+
+.property-card {
+  width: 315px;
+  height: 280px;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: 7px; 
+  right: 7px; 
+  background-color: transparent;
+  cursor: pointer;
+  height: 47px;
+  width: 47px;
+}
+
+.property-details {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  width: 315px;
+}
+
+.list-price {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 24px;
+}
+
+.address {
+  font-size: 15px;
+  line-height: 32px;
+  width: 315px;
+}
+
+.listed-date {
+  font-size: 14px;
+  line-height: 32px;
+  color: #979797;
+}
